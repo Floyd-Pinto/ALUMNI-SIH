@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board - Alumni Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="logo.png" alt="Alumni Network Logo" class="logo"> Alumni Network</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+            <div class="user-auth">
+                <a href="login.html">Login</a> | <a href="signup.html">Signup</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="job-board">
+            <div class="container">
+                <h2>Job Board</h2>
+                <div class="search-bar">
+                    <input type="text" id="job-search" placeholder="Search for jobs...">
+                    <button class="btn" onclick="searchJobs()">Search</button>
+                </div>
+                <div class="job-listings" id="job-listings">
+                    <div class="job-listing">
+                        <h3>Software Engineer</h3>
+                        <p>Tech Company - San Francisco, CA</p>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                    <div class="job-listing">
+                        <h3>Product Manager</h3>
+                        <p>Innovative Startup - New York, NY</p>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                    <!-- More job listings -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alumni Network. All rights reserved.</p>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
