@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html"><img src="https://via.placeholder.com/150x50?text=Logo" alt="Alumni Network Logo" class="logo"></a> Alumni Network</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+            <div class="user-auth">
+                <a href="login.html">Login</a> | <a href="signup.html">Signup</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="directory">
+            <div class="container">
+                <h2>Alumni Directory</h2>
+                <input type="text" id="directory-search" placeholder="Search Alumni..." oninput="searchDirectory()">
+                <div class="directory-list">
+                    <!-- Example directory items -->
+                    <div class="directory-item">
+                        <img src="https://via.placeholder.com/100?text=Profile+Pic" alt="Profile Picture">
+                        <h3>John Doe</h3>
+                        <p>Software Engineer at Tech Company</p>
+                    </div>
+                    <div class="directory-item">
+                        <img src="https://via.placeholder.com/100?text=Profile+Pic" alt="Profile Picture">
+                        <h3>Jane Smith</h3>
+                        <p>Marketing Manager at Business Inc.</p>
+                    </div>
+                    <!-- More directory items -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alumni Network. All rights reserved.</p>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
